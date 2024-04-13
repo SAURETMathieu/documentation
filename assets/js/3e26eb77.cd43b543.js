@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[7538],{5818:t=>{t.exports=JSON.parse('{"title":"Utils","slug":"/category/utils-1","permalink":"/docs/category/utils-1","navigation":{"previous":{"title":"Routeur","permalink":"/docs/javascript/Router/"},"next":{"title":"Notifications","permalink":"/docs/javascript/Utils/notifications"}}}')}}]);

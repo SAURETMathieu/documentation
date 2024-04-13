@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[9753],{4462:t=>{t.exports=JSON.parse('{"title":"REACT","slug":"/category/react","permalink":"/docs/category/react","navigation":{"previous":{"title":"Notifications","permalink":"/docs/javascript/Utils/notifications"},"next":{"title":"<img>","permalink":"/docs/react/balise-img-html"}}}')}}]);

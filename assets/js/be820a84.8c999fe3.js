@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[5594],{9026:e=>{e.exports=JSON.parse('{"title":"Tutoriels","slug":"/category/tutoriels-1","permalink":"/documentation/docs/category/tutoriels-1","navigation":{"next":{"title":"Flex Wrap","permalink":"/documentation/docs/css/tutoriel/flex-wrap"}}}')}}]);
