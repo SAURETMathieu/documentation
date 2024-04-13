@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[131],{480:a=>{a.exports=JSON.parse('{"title":"Javascript","slug":"/category/javascript","permalink":"/docs/category/javascript","navigation":{"previous":{"title":"<img>","permalink":"/docs/html/balise-img-html"},"next":{"title":"Tableau","permalink":"/docs/category/tableau"}}}')}}]);

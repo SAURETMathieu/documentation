@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[4194],{9845:e=>{e.exports=JSON.parse('{"title":"SQL","slug":"/category/sql","permalink":"/docs/category/sql","navigation":{"previous":{"title":"<img>","permalink":"/docs/react/balise-img-html"},"next":{"title":"POSTGRESQL","permalink":"/docs/sql/pgsql"}}}')}}]);

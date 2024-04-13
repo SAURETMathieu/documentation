@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[841],{960:e=>{e.exports=JSON.parse('{"title":"CSS","slug":"/category/css","permalink":"/docs/category/css","navigation":{"next":{"title":"Tutoriels","permalink":"/docs/category/tutoriels"}}}')}}]);
