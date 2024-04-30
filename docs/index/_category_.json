@@ -1,6 +1,6 @@
 {
-  "label": "Exemples",
-  "position": 2,
+  "label": "Accueil",
+  "position":1,
   "link": {
     "type": "generated-index"
   }

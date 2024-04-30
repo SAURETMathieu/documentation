@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://sauretmathieu.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -44,11 +44,6 @@ const config = {
           editUrl:
             'https://github.com/SAURETMathieu',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   editUrl:
-        //     'https://github.com/SAURETMathieu',
-        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -74,18 +69,12 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'SAURET Doc',
+        title: 'Accueil',
         logo: {
           alt: 'SAURET Doc Logo',
           src: 'img/logo192x192.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'homeSidebar',
-            position: 'left',
-            label: 'Accueil',
-          },
           {
             type: 'docSidebar',
             sidebarId: 'javascriptSidebar',
@@ -127,7 +116,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Liens',
+            title: 'Liens utiles',
             items: [
               {
                 label: 'MDN Web Docs',
@@ -148,15 +137,11 @@ const config = {
             items: [
               {
                 label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/sauret-mathieu-b5730b273/',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://www.linkedin.com/in/sauret-mathieu',
               },
               {
                 label: 'Email',
-                href: 'https://twitter.com/docusaurus',
+                href: 'mailto:mathieu.sauret.dev@gmail.com',
               },
             ],
           },
@@ -168,17 +153,13 @@ const config = {
                 href: 'https://github.com/SAURETMathieu',
               },
               {
-                label: 'CV',
-                href: 'https://www.linkedin.com/in/sauret-mathieu-b5730b273/',
-              },
-              {
                 label: 'Portfolio',
-                href: 'https://www.linkedin.com/in/sauret-mathieu-b5730b273/',
+                href: 'https://sauret-mathieu.up.railway.app',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SAURET Doc, Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Mathieu SAURET, Réalisé avec React et Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

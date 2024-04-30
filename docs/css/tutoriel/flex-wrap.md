@@ -4,8 +4,6 @@ title: Flex Wrap
 sidebar_label: Flex Wrap
 ---
 
-# Flex Wrap
-
 La propriété `flex-wrap` en CSS est utilisée pour définir si les éléments flexibles doivent être enroulés sur plusieurs lignes ou colonnes dans un conteneur flex.
 
 ## Introduction
