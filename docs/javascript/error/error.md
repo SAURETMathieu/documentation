@@ -2,6 +2,7 @@
 id: error
 title: Centralisation des Erreurs
 sidebar_label: Centralisation des Erreurs
+description: Centralisation des erreurs sur un serveur express Node.js
 ---
 
 ## Création d'une Classe étendant la Classe Error

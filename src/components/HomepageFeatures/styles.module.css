@@ -9,3 +9,11 @@
   height: 200px;
   width: 200px;
 }
+
+.link svg{
+  color: var(--ifm-color-svg);
+}
+
+.link:hover {
+  opacity: 0.8;
+}

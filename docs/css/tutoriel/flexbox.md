@@ -4,8 +4,6 @@ title: Flexbox
 sidebar_label: Flexbox
 ---
 
-# Flexbox
-
 Flexbox, ou Flexible Box Layout, est un modèle de disposition pour concevoir des mises en page complexes et dynamiques avec des boîtes de modèle élastiques.
 
 ## Introduction
