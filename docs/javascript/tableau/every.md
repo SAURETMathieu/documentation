@@ -1,4 +1,8 @@
-# every
+---
+id: every
+title: every
+sidebar_label: every
+---
 
 ## Vérifier si Tous les Éléments du Tableau Satisfont un Test
 
