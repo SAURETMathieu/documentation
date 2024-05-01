@@ -73,6 +73,24 @@
   --radius: 0.5rem;
 }
 
-main{
-  min-height:100vh;
+article{
+  min-height:calc(100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal));
+}
+
+.theme-doc-footer{
+  
+}
+
+.pagination-nav{
+  margin-top:1rem !important;
+}
+
+.theme-doc-markdown{
+  min-height:calc(100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal) - 76px - 4rem);
+}
+
+@media screen and (min-width: 997px) {
+  .theme-doc-markdown{
+    min-height:calc(100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal) - 76px - 1rem);
+  }
 }
