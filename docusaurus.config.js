@@ -40,7 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/SAURETMathieu',
         },
@@ -77,33 +77,27 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'javascriptSidebar',
+            sidebarId: 'javascript',
             position: 'left',
             label: 'Javascript',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'cssSidebar', // Identifiant distinct pour la barre latérale CSS
+            sidebarId: 'css',
             position: 'left',
             label: 'CSS',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'htmlSidebar', // Identifiant distinct pour la barre latérale HTML
+            sidebarId: 'htmlSidebar',
             position: 'left',
             label: 'HTML',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'sqlSidebar', // Identifiant distinct pour la barre latérale SQL
+            sidebarId: 'reactSidebar',
             position: 'left',
-            label: 'SQL',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'reactSidebar', // Identifiant distinct pour la barre latérale REACT
-            position: 'left',
-            label: 'REACT',
+            label: 'React',
           },
           {
             href: 'https://github.com/SAURETMathieu',
