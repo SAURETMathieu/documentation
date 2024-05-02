@@ -1,4 +1,8 @@
-# filter
+---
+id: filter
+title: filter
+sidebar_label: filter
+---
 
 ## Créer un Nouveau Tableau avec les Éléments qui Passent un Test
 

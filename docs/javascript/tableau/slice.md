@@ -1,4 +1,8 @@
-# slice
+---
+id: slice
+title: slice
+sidebar_label: slice
+---
 
 ## Extraire une Copie Superficielle d'une Partie du Tableau
 

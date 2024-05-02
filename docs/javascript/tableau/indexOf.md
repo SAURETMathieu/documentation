@@ -1,4 +1,8 @@
-# indexOf
+---
+id: index-of
+title: indexOf
+sidebar_label: indexOf
+---
 
 ## Retourner l'Indice d'un Élément Spécifié dans le Tableau
 

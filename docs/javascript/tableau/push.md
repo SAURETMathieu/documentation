@@ -1,4 +1,8 @@
-# push
+---
+id: push
+title: push
+sidebar_label: push
+---
 
 ## Ajouter un Élément à la Fin du Tableau
 

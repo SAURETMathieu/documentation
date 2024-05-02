@@ -37,6 +37,8 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.homeAlert}>Documentation en cours de production</p>
+        <p className={styles.homeAlert}>Elle sera progressivement ajoutée </p>
         <div className={styles.heroLogos}>
           {logos.map((icon) => (
             <Link key={icon.title} href={icon.link} className={styles.heroLogo}>

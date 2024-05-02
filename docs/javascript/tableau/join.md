@@ -1,4 +1,8 @@
-# join
+---
+id: join
+title: join
+sidebar_label: join
+---
 
 ## Joindre les Éléments du Tableau en une Chaîne de Caractères
 

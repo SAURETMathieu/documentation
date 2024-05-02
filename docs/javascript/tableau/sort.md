@@ -1,4 +1,8 @@
-# sort
+---
+id: sort
+title: sort
+sidebar_label: sort
+---
 
 ## Trier les Éléments du Tableau
 

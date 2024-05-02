@@ -1,4 +1,8 @@
-# includes
+---
+id: includes
+title: includes
+sidebar_label: includes
+---
 
 ## Vérifier si un Élément est Présent dans le Tableau
 

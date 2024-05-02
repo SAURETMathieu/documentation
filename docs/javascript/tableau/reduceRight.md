@@ -1,4 +1,8 @@
-# reduceRight
+---
+id: reduce-right
+title: reduceRight
+sidebar_label: reduceRight
+---
 
 ## Réduire le Tableau à une Valeur Unique de Droite à Gauche
 

@@ -1,4 +1,8 @@
-# flatMap
+---
+id: flat-map
+title: flatMap
+sidebar_label: flatMap
+---
 
 ## Aplatir le Résultat d'une Application de Fonction sur Chaque Élément
 

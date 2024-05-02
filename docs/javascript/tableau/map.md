@@ -1,4 +1,8 @@
-# map
+---
+id: map
+title: map
+sidebar_label: map
+---
 
 ## Créer un Nouveau Tableau en Appliquant une Fonction à Chaque Élément
 

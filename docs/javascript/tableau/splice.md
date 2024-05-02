@@ -1,4 +1,8 @@
-# splice
+---
+id: splice
+title: splice
+sidebar_label: splice
+---
 
 ## Modifier le Contenu du Tableau en Supprimant, Remplaçant ou Ajoutant des Éléments
 

@@ -1,4 +1,8 @@
-# some
+---
+id: some
+title: some
+sidebar_label: some
+---
 
 ## Vérifier si au Moins un Élément du Tableau Satisfait un Test
 
