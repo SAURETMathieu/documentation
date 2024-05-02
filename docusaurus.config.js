@@ -102,7 +102,7 @@ const config = {
           },
           {
             href: 'https://github.com/SAURETMathieu',
-            label: 'GitHub',
+            label: 'Github',
             position: 'right',
           },
         ],

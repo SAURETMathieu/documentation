@@ -1,4 +1,8 @@
-# shift
+---
+id: shift
+title: shift
+sidebar_label: shift
+---
 
 ## Retirer le Premier Élément du Tableau
 

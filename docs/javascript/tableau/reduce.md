@@ -1,4 +1,8 @@
-# reduce
+---
+id: reduce
+title: reduce
+sidebar_label: reduce
+---
 
 ## Réduire le Tableau à une Valeur Unique en Appliquant une Fonction d'Accumulation
 

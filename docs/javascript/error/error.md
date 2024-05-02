@@ -1,5 +1,5 @@
 ---
-id: error
+id: error-centralize
 title: Centralisation des Erreurs
 sidebar_label: Centralisation des Erreurs
 description: Centralisation des erreurs sur un serveur express Node.js

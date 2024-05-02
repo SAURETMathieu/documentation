@@ -1,4 +1,8 @@
-# reverse
+---
+id: reverse
+title: reverse
+sidebar_label: reverse
+---
 
 ## Inverser l'Ordre des Éléments du Tableau
 

@@ -1,4 +1,8 @@
-# flat
+---
+id: flat
+title: flat
+sidebar_label: flat
+---
 
 ## Aplatir un Tableau de Sous-Tableaux d'une Profondeur
 

@@ -1,4 +1,8 @@
-# isArray
+---
+id: is-array
+title: isArray
+sidebar_label: isArray
+---
 
 ## Vérifier si un Objet est un Tableau
 

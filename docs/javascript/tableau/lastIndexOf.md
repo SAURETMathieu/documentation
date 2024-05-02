@@ -1,4 +1,8 @@
-# lastIndexOf
+---
+id: last-index-of
+title: lastIndexOf
+sidebar_label: lastIndexOf
+---
 
 ## Retourner l'Indice du Dernier Élément Spécifié dans le Tableau
 

@@ -1,4 +1,8 @@
-# findIndex
+---
+id: find-index
+title: findIndex
+sidebar_label: findIndex
+---
 
 ## Retourner l'Indice du Premier Élément du Tableau qui Satisfait un Test
 

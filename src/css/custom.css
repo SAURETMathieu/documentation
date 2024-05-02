@@ -73,24 +73,26 @@
   --radius: 0.5rem;
 }
 
-article{
-  min-height:calc(100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal));
+.pagination-nav {
+  margin-top: 1rem !important;
 }
 
-.theme-doc-footer{
-  
+.theme-doc-markdown {
+  min-height: calc(
+    100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal) - 76px - 4rem
+  );
 }
 
-.pagination-nav{
-  margin-top:1rem !important;
-}
-
-.theme-doc-markdown{
-  min-height:calc(100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal) - 76px - 4rem);
+footer{
+  text-align:center;
 }
 
 @media screen and (min-width: 997px) {
-  .theme-doc-markdown{
-    min-height:calc(100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal) - 76px - 1rem);
+  .theme-doc-markdown {
+    min-height: calc(
+      100vh - 60px - 76px - 4rem - var(--ifm-spacing-horizontal) - 76px - 1rem
+    );
   }
 }
+
+

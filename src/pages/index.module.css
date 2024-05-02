@@ -34,11 +34,17 @@
   background: var(--accent);
   color: var(--color-current);
   padding: 0.5rem;
-  border-radius:0.2rem;
+  border-radius: 0.2rem;
   border: var(--color-current) solid 1px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.heroLogo:hover{
-  opacity:0.9;
+.heroLogo:hover {
+  opacity: 0.9;
+}
+
+.homeAlert {
+  color: red;
+  font-weight: bold;
+  font-size:1.5rem;
 }

@@ -1,4 +1,8 @@
-# pop
+---
+id: pop
+title: pop
+sidebar_label: pop
+---
 
 ## Retirer le Dernier Élément du Tableau
 

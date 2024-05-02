@@ -1,4 +1,8 @@
-# find
+---
+id: find
+title: find
+sidebar_label: find
+---
 
 ## Retourner le Premier Élément du Tableau qui Satisfait un Test
 
