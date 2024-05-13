@@ -119,7 +119,7 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: true,
       items: [
-        "react/templates/template-input",
+        "react/templates/template-auto-form",
         "react/templates/template-table",
       ],
     },
