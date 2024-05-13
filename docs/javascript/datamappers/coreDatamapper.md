@@ -66,9 +66,9 @@ A noter que ce module est conçu pour fonctionner avec PostgreSQL. Vous pouvez l
 
 :warning: Les méthodes `create_${this.writeTableName}` et `update_${this.writeTableName}` doivent être créées dans la base de données pour insérer et mettre à jour les données.
 
-Vous pouvez trouver un exemple de client PostgreSQL dans le fichier `pg.client.js` du dossier `helpers`.
+Vous pouvez trouver un exemple de client PostgreSQL dans le fichier `pg.client.js` du dossier `databases`.
 
-Lien vers le fichier [pg.client.js](../pgsql/pgsql-connexion).
+Lien vers le fichier [pg.client.js](../databases/pgsql).
 
 Le module `CoreDatamapper` contient les méthodes suivantes :
 

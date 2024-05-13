@@ -20,7 +20,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Bases de données",
       link: { type: "generated-index", slug: "javascript/databases" },
-      items: ["javascript/databases/PGSQL/pgsql"],
+      items: ["javascript/databases/pgsql"],
     },
     {
       type: "category",
@@ -56,10 +56,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Express",
       link: { type: "generated-index", slug: "javascript/express" },
-      items: [
-        "javascript/express/express-server",
-        "javascript/express/router",
-      ],
+      items: ["javascript/express/express-server", "javascript/express/router", "javascript/express/init"],
     },
     {
       type: "category",
@@ -68,6 +65,7 @@ const sidebars: SidebarsConfig = {
       items: [
         "javascript/helpers/cloudinary",
         "javascript/helpers/google-drive",
+        "javascript/helpers/logger",
       ],
     },
     {
@@ -78,6 +76,14 @@ const sidebars: SidebarsConfig = {
         "javascript/middlewares/cors",
         "javascript/middlewares/validation",
         "javascript/middlewares/upload-file",
+      ],
+    },
+    {
+      type: "category",
+      label: "ORM",
+      link: { type: "generated-index", slug: "javascript/orm" },
+      items: [
+        "javascript/orm/sequelize",
       ],
     },
     {
@@ -114,6 +120,12 @@ const sidebars: SidebarsConfig = {
       label: "Utils",
       link: { type: "generated-index", slug: "javascript/utils" },
       items: ["javascript/utils/get-audio", "javascript/utils/notifications"],
+    },
+    {
+      type: "category",
+      label: "Validation de données",
+      link: { type: "generated-index", slug: "javascript/validate" },
+      items: ["javascript/validate/joi"],
     },
   ],
   css: [
