@@ -1,5 +1,7 @@
-import { options } from '../../../datas/formElement.json';
+import optionsData from '../../../datas/formElement.json';
 import AutoForm from './AutoForm';
+
+const { options } = optionsData;
 
 function ArtistForm() {
   const optionsList = [
