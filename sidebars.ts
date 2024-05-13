@@ -28,6 +28,25 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Helpers",
+      link: { type: "generated-index", slug: "javascript/helpers" },
+      items: [
+        "javascript/helpers/cloudinary",
+        "javascript/helpers/google-drive",
+      ],
+    },
+    {
+      type: "category",
+      label: "Middlewares",
+      link: { type: "generated-index", slug: "javascript/middlewares" },
+      items: [
+        "javascript/middlewares/cors",
+        "javascript/middlewares/validation",
+        "javascript/middlewares/upload-file",
+      ],
+    },
+    {
+      type: "category",
       label: "Tableau",
       link: {
         type: "generated-index",
@@ -57,12 +76,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Middlewares",
-      link: { type: "generated-index", slug: "javascript/middlewares" },
-      items: [
-        "javascript/middlewares/cors",
-        "javascript/middlewares/validation",
-      ],
+      label: "Utils",
+      link: { type: "generated-index", slug: "javascript/utils" },
+      items: ["javascript/utils/get-audio", "javascript/utils/notifications"],
     },
   ],
   css: [
