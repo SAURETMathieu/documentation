@@ -43,3 +43,24 @@ const drive = google.drive({ version: "v3", auth: oAuth2Client });
 
 export default drive;
 ```
+
+## Suppression d'un fichier sur Google Drive
+
+Pour supprimer un fichier sur Google Drive, vous pouvez utiliser la méthode `files.delete` de l'API Google Drive. Voici un exemple de fonction pour supprimer un fichier :
+
+```js
+import drive from "../helpers/google.connexion.js";
+
+export default async function deleteDriveFile(fileId) {
+  try {
+    await drive.files.delete({ fileId });
+    if (response.status === 204) {
+      return true;
+    }
+    return false;
+  } catch (error) {
+    console.error("Erreur lors de la suppression du fichier:", error);
+    return false;
+  }
+}
+```
