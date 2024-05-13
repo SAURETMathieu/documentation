@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "lastname": "Dupont",
+    "firstname": "Jean",
+    "city": "Paris",
+    "address": "123 Rue de la Liberté",
+    "age": 35
+  },
+  {
+    "id": 2,
+    "lastname": "Smith",
+    "firstname": "Emma",
+    "city": "New York",
+    "address": "456 Elm Street",
+    "age": 28
+  },
+  {
+    "id": 3,
+    "lastname": "Garcia",
+    "firstname": "Juan",
+    "city": "Madrid",
+    "address": "789 Calle Principal",
+    "age": 42
+  },
+  {
+    "id": 4,
+    "lastname": "Kim",
+    "firstname": "Sohee",
+    "city": "Seoul",
+    "address": "1010 Gangnam-gu",
+    "age": 31
+  }
+]
