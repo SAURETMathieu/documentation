@@ -40,3 +40,44 @@ cloudinary.config({
 
 export default cloudinary;
 ```
+
+## Suppression d'une image sur Cloudinary
+
+Pour supprimer une image sur Cloudinary, vous pouvez utiliser la méthode `destroy` de l'API Cloudinary. Voici un exemple de fonction pour supprimer une image :
+
+```js
+import cloudinary from '../helpers/cloudinary.connexion.js';
+
+export default async function deleteCloudinaryFile(fileId) {
+  try {
+    const result = await cloudinary.uploader.destroy(fileId);
+    if (result.result !== 'ok') {
+      throw new Error('Erreur lors de la suppression du fichier');
+    }
+    return true;
+  } catch (error) {
+    console.error('Erreur lors de la suppression du fichier:', error);
+    return false;
+  }
+}
+```
+
+## Télécharger une image sur Cloudinary
+
+Pour télécharger une image sur Cloudinary, vous pouvez utiliser la méthode `upload` de l'API Cloudinary. Voici un exemple de fonction pour télécharger une image :
+
+```js
+import cloudinary from '../helpers/cloudinary.connexion.js';
+
+export default async function uploadCloudinaryFile(file) {
+  try {
+    const result = await cloudinary.uploader.upload(file, options);
+    return result.secure_url;
+  } catch (error) {
+    console.error('Erreur lors du téléchargement du fichier:', error);
+    return false;
+  }
+}
+```
+
+Vous pouvez personnaliser cette fonction en ajoutant des options supplémentaires pour le téléchargement de l'image. Consultez la [documentation Cloudinary](https://cloudinary.com/documentation/image_upload_api_reference) pour plus d'informations sur les options disponibles.
