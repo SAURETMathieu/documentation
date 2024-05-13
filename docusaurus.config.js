@@ -23,7 +23,7 @@ const config = {
   organizationName: 'SAURETMathieu', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
