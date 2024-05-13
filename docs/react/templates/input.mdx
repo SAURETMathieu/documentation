@@ -1,10 +1,12 @@
 ---
-id: template-input
-title: Template input
-sidebar_label: Template d'input dynamique
+id: template-auto-form
+title: Template de formulaire dynamique
+sidebar_label: Template de formulaire dynamique
 ---
 
-## Fonction Input
+## Composant Input
+
+Créez un composant `Input` qui prend en paramètre les options nécessaires pour créer un champ de formulaire.
 
 ```jsx
 import React from "react";
@@ -102,7 +104,9 @@ function Input({ options, handleInputChange, handleFileChange }) {
 export default Input;
 ```
 
-## Utilisation
+## Utilisation du composant Input de manière dynamique
+
+Utilisez le composant `Input` en passant les options nécessaires.
 
 ```jsx
 <Input
@@ -114,6 +118,10 @@ export default Input;
 ```
 
 ## Initialisation des options
+
+Créez un fichier `options.json` qui contient les options nécessaires pour créer un bouton ou créez un objet `options`.
+
+Par exemple:
 
 ```json
 {
@@ -197,7 +205,22 @@ const initialForm = () => {
 };
 ```
 
-## Fonction inputChange
+## UseEffect de l'initialisation du formulaire
+
+```jsx
+const [formInit, setFormInit] = useState(false);
+
+useEffect(() => {
+  if (optionsList && optionsList.length > 0 && !formInit) {
+    initialForm();
+    setFormInit(true);
+  }
+}, [optionsList, formInit]);
+```
+
+## Fonction handleInputChange
+
+Créez une fonction `handleInputChange` qui met à jour le formulaire lorsqu'un champ est modifié.
 
 ```jsx
 const handleInputChange = (id, event) => {
@@ -210,6 +233,10 @@ const handleInputChange = (id, event) => {
 ```
 
 ## Fonction handleFileChange
+
+Créez une fonction `handleFileChange` qui met à jour le formulaire lorsqu'un fichier est ajouté.
+
+Si le champ est de type `file` et que l'id est `url_image`, cela permet de changer la prévisualisation de l'image.
 
 ```jsx
 const handleFileChange = (id, event) => {
@@ -225,7 +252,9 @@ const handleFileChange = (id, event) => {
 };
 ```
 
-## Exemple de formulaire
+## Template de formulaire
+
+Ce composant `AutoForm` permet de créer un formulaire dynamique en passant les options nécessaires.
 
 ```jsx
 return (
@@ -235,20 +264,8 @@ return (
     onSubmit={handleSubmit}
     encType="multipart/form-data"
   >
-    {modalMode === "create" &&
-      optionsList &&
+    {optionsList &&
       optionsList.map((options) => (
-        <Input
-          key={options.id}
-          options={options}
-          handleInputChange={handleInputChange}
-          handleFileChange={handleFileChange}
-        />
-      ))}
-
-    {modalMode === "update" &&
-      optionsUpdate &&
-      optionsUpdate.map((options) => (
         <Input
           key={options.id}
           options={options}
@@ -279,6 +296,11 @@ return (
 ```
 
 ## Fonction handleSubmit
+
+Créez une fonction `handleSubmit` qui envoie les données du formulaire à l'API.
+
+A noter que si le mode est `create`, les données sont envoyées en `POST`, sinon en `PATCH`. 
+Dans le cas d'une création, les données sont ajoutées à la liste, sinon elles sont mises à jour.
 
 ```jsx
 const handleSubmit = async (event) => {
@@ -317,3 +339,35 @@ const handleSubmit = async (event) => {
   }
 };
 ```
+
+## Exemple de création de formulaire
+
+Vous pouvez créer un formulaire en utilisant le composant `AutoForm` et en passant les options nécessaires.
+
+```jsx
+function ArtistForm() {
+  const optionsList = [
+    options.firstname,
+    options.lastname,
+    options.nickname,
+    options.year,
+    options.city,
+    options.country,
+    options.description,
+    options.function,
+    options.url_image,
+  ];
+
+  return <AutoForm optionsList={optionsList} />;
+}
+
+export default ArtistForm;
+```
+
+### Formulaire obtenu
+
+Ainsi vous obtenez un formulaire dynamique en modifiant uniquement l'objet `optionsList`.
+
+import ArtistForm from "@site/src/components/Examples/AutoForm/ArtistForm";
+
+<ArtistForm />
