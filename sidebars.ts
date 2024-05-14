@@ -18,6 +18,32 @@ const sidebars: SidebarsConfig = {
     "javascript/index",
     {
       type: "category",
+      label: "Bases de données",
+      link: { type: "generated-index", slug: "javascript/databases" },
+      items: ["javascript/databases/pgsql"],
+    },
+    {
+      type: "category",
+      label: "Controllers",
+      link: {
+        type: "generated-index",
+        slug: "javascript/controllers",
+      },
+      collapsed: true,
+      items: ["javascript/controllers/core-controller"],
+    },
+    {
+      type: "category",
+      label: "Datamappers",
+      link: {
+        type: "generated-index",
+        slug: "javascript/datamappers",
+      },
+      collapsed: true,
+      items: ["javascript/datamappers/core-datamapper"],
+    },
+    {
+      type: "category",
       label: "Error",
       link: {
         type: "generated-index",
@@ -25,6 +51,40 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: true,
       items: ["javascript/error/error-centralize"],
+    },
+    {
+      type: "category",
+      label: "Express",
+      link: { type: "generated-index", slug: "javascript/express" },
+      items: ["javascript/express/express-server", "javascript/express/router", "javascript/express/init"],
+    },
+    {
+      type: "category",
+      label: "Helpers",
+      link: { type: "generated-index", slug: "javascript/helpers" },
+      items: [
+        "javascript/helpers/cloudinary",
+        "javascript/helpers/google-drive",
+        "javascript/helpers/logger",
+      ],
+    },
+    {
+      type: "category",
+      label: "Middlewares",
+      link: { type: "generated-index", slug: "javascript/middlewares" },
+      items: [
+        "javascript/middlewares/cors",
+        "javascript/middlewares/validation",
+        "javascript/middlewares/upload-file",
+      ],
+    },
+    {
+      type: "category",
+      label: "ORM",
+      link: { type: "generated-index", slug: "javascript/orm" },
+      items: [
+        "javascript/orm/sequelize",
+      ],
     },
     {
       type: "category",
@@ -57,12 +117,15 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Middlewares",
-      link: { type: "generated-index", slug: "javascript/middlewares" },
-      items: [
-        "javascript/middlewares/cors",
-        "javascript/middlewares/validation",
-      ],
+      label: "Utils",
+      link: { type: "generated-index", slug: "javascript/utils" },
+      items: ["javascript/utils/get-audio", "javascript/utils/notifications"],
+    },
+    {
+      type: "category",
+      label: "Validation de données",
+      link: { type: "generated-index", slug: "javascript/validate" },
+      items: ["javascript/validate/joi"],
     },
   ],
   css: [
@@ -119,7 +182,7 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: true,
       items: [
-        "react/templates/template-input",
+        "react/templates/template-auto-form",
         "react/templates/template-table",
       ],
     },

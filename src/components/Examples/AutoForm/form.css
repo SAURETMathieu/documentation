@@ -1,0 +1,137 @@
+.submit-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0.2rem;
+  width: 100%;
+}
+
+.is-success {
+  border: solid 1px green;
+  padding: 1rem;
+  width: 45%;
+  max-width:300px;
+  color: green;
+  font-weight: 600;
+  background-color: white;
+}
+
+.is-cancel {
+  border: solid 1px red;
+  padding: 1rem;
+  width: 45%;
+  color: red;
+  max-width:300px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.is-success:hover {
+  background-color: rgba(35, 102, 18, 0.2);
+}
+
+.is-cancel:hover {
+  background-color: rgba(102, 18, 18, 0.2);
+}
+
+.image-preview{
+  width: 6rem;
+  height: 6rem;
+  border:solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.create-form {
+  width: 100%;
+  overflow-y: scroll;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  padding: 0.3rem;
+  border: solid 2px rgba(0, 0, 0, 0.4);
+}
+
+.create-form label {
+  width: 100%;
+  font-size:1.3rem;
+  text-align:center;
+}
+
+.create-form div:not(.submit-buttons):not(.textarea-container):not(.input-file-container) {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0.4rem;
+  width:47%;
+  min-width:220px;
+}
+
+.textarea-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0.3rem;
+  width:100%;
+}
+
+.input-file-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:0.3rem;
+  width:100%;
+  min-width:100%;
+}
+
+.create-form textarea{
+  max-width:94%;
+  min-width:94%;
+  width:94%;
+  min-height:4rem;
+  max-height:500px;
+  height:10rem;
+  padding:0.5rem;
+  text-align: left;
+}
+
+.create-form input[type="text"],
+.create-form input[type="datetime-local"],
+.create-form input[type="date"],
+.create-form input[type="email"],
+.create-form input[type="password"],
+.create-form input[type="number"],
+.create-form select{
+  width: 100%;
+  padding: 0.5rem;
+  min-width:220px;
+}
+
+.create-form input[type="file"] {
+  width: 50%;
+  min-width:220px;
+  padding: 0.5rem;
+  align-items:center;
+}
+
+.create-form::-webkit-scrollbar {
+  width: 3px;
+}
+
+.create-form::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.create-form::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 426px) {
+  .create-form {
+    font-size: 1rem;
+  }
+}

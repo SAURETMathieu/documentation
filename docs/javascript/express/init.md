@@ -99,4 +99,4 @@ dotenv.config();
 
 ## Créer le fichier index à la racine du projet
 
-Pour créer le fichier index [Cliquez ici](../Express) pour accèder à la page correspondante.
+Pour créer le fichier index [Cliquez ici](../express) pour accèder à la page correspondante.
