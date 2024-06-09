@@ -73,6 +73,11 @@
   --radius: 0.5rem;
 }
 
+[data-theme="light"] .prism-code{
+  background:#DADDE1 !important;
+  border: solid 1px grey;
+}
+
 .pagination-nav {
   margin-top: 1rem !important;
 }
