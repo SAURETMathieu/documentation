@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksauret_doc=self.webpackChunksauret_doc||[]).push([[2306],{3502:a=>{a.exports=JSON.parse('{"title":"CSS Vanilla","slug":"/category/css-vanilla","permalink":"/docs/category/css-vanilla","navigation":{"previous":{"title":"Introduction","permalink":"/docs/css"},"next":{"title":"Flex Wrap","permalink":"/docs/css/vanilla/flex-wrap"}}}')}}]);
